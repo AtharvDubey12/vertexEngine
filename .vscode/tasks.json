@@ -8,6 +8,7 @@
       "args": [
         "main.c",
         "src/platform_win32.c",
+        "src/tsdl_sprite.c",
         "-Iinclude",
         "-o",
         "build/tinysdl.exe",

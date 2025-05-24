@@ -35,6 +35,8 @@ double tsdl_get_time();
 void tsdl_sleep(int ms);
 void tsdl_draw_pixel(int x, int y, unsigned int color);
 void tsdl_draw_rect(int x, int y, int w, int h, unsigned int color);
+#include "sprite.h"
+void tsdl_draw_sprite(const Sprite* sprite, int x, int y, int scale);
 
 
 #ifdef __cplusplus
