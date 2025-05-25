@@ -10,6 +10,8 @@
         "src/platform_win32.c",
         "src/tsdl_sprite.c",
         "-Iinclude",
+        "-Lmath_rust/target/release",
+        "-lmath_rust",
         "-o",
         "build/tinysdl.exe",
         "-lgdi32"
