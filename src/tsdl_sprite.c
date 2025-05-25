@@ -1,8 +1,7 @@
-// src/tsdl_sprite.c
+
 #include "../include/tinysdl.h"
 #include "../include/sprite.h"
 
-// include/tinysdl.h (add to the bottom)
 
 void tsdl_draw_sprite(const Sprite* sprite, int x, int y, int scale) {
     TSDL_Framebuffer* fb = tsdl_get_framebuffer();
